@@ -234,3 +234,32 @@ color:#ccc;
 .gallery-container img:hover{
     transform:scale(1.05);
 }
+    .testimonials{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.testimonial-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.testimonial{
+    background:#1f1f1f;
+    color:#fff;
+    padding:25px;
+    width:300px;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.testimonial:hover{
+    transform:translateY(-10px);
+}
+
+.testimonial h4{
+    color:gold;
+    margin:10px 0;
+}
