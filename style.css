@@ -263,3 +263,37 @@ color:#ccc;
     color:gold;
     margin:10px 0;
 }
+    .contact{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.contact form{
+    max-width:600px;
+    margin:auto;
+}
+
+.contact input,
+.contact textarea{
+    width:100%;
+    padding:15px;
+    margin:10px 0;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+}
+
+.contact button{
+    padding:15px 30px;
+    border:none;
+    border-radius:10px;
+    background:#ff4d4d;
+    color:#fff;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.contact button:hover{
+    background:#ff1a1a;
+}
